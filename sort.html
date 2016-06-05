@@ -30,18 +30,19 @@
 
 	<script>
 	var a = new array2d(100);
-	for (var i=2;i<=100;i++) {
-		if (a[i]) {
-			continue;
-		}
-		for (var j=i*2;j<100;j+=i) {
-			a[j] = true;
+	a.shuffle(100);
+
+	for (var i=0;i<100;i++) {
+		for (var j=i+1;j<100;j++) {
+			if (a.isLess(i,j)) {
+				a.swap(i,j);
+			}
 		}
 	}
 
 
 
-	new Painter(100,a.log).start()
+	console.log(a.tab)
 
 
 
