@@ -1,1 +1,1144 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"React",
+				"ReactTypes"
+			],
+			[
+				"Ma",
+				"markets"
+			],
+			[
+				"loca",
+				"locationSuggestions"
+			],
+			[
+				"sug",
+				"suggestions"
+			],
+			[
+				"Rea",
+				"ReactTypes"
+			],
+			[
+				"filt",
+				"filtered"
+			],
+			[
+				"is",
+				"isNotSelected"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"com",
+				"CommandLine"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"rumo",
+				"rumorsForm"
+			],
+			[
+				"f",
+				"for	for (…) {…}"
+			],
+			[
+				"nowy",
+				"nowyKolor"
+			],
+			[
+				"onChn",
+				"onChangeAvailablityFail"
+			],
+			[
+				"Re",
+				"ReactTypes"
+			],
+			[
+				"isR",
+				"isReportAccessible"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"licz",
+				"liczbaT"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"start",
+				"startsWith"
+			],
+			[
+				"Tran",
+				"transactionSorter"
+			],
+			[
+				"tra",
+				"transactionName"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ba",
+				"border-image"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"se",
+				"selector"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"szero",
+				"szerokoscGracza"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"list-style",
+				"list-style-type"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"mat",
+				"maturitiesList"
+			],
+			[
+				"matu",
+				"maturitiesList"
+			],
+			[
+				"futu",
+				"futuresID"
+			],
+			[
+				"future",
+				"futuresPrices"
+			],
+			[
+				"objec",
+				"objectToUrl"
+			],
+			[
+				"encod",
+				"encodeAndDecode"
+			],
+			[
+				"expe",
+				"expectedOutput"
+			],
+			[
+				"enc",
+				"encdoeAndDecode"
+			],
+			[
+				"clie",
+				"clientX"
+			],
+			[
+				"neste",
+				"nestedEmpty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "node_modules/snapsvg/demos/tutorial/1.html",
+			"settings":
+			{
+				"buffer_size": 7081,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "__tests__/sum-test.js",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "array2d.js",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 33.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 66.0,
+		"history":
+		[
+			"run(\"coffee\")",
+			"run(c\"offee\")",
+			"run(coffee)",
+			"./coffee",
+			"coffee",
+			"coffeelint",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"view.encoding()",
+			"help",
+			"grep",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/pawel/Repository/github/ColorBlocks",
+		"/home/pawel/Repository/github/ColorBlocks/src"
+	],
+	"file_history":
+	[
+		"/home/pawel/Repository/github/ColorBlocks/node_modules/snapsvg/demos/clock/index.html",
+		"/home/pawel/Repository/github/ColorBlocks/index.html",
+		"/home/pawel/Repository/github/ColorBlocks/src/array2d.js",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/mixins/intro.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/use-cases.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/ticker.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/initialize.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/market-form.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/trade.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/form.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/styles/trade.less",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/price-form.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/markets.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/simple-select.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/product-form.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/select.coffee",
+		"/home/pawel/Desktop/logs.txt",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/products.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/utils/fmt.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/name.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/futures.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/lineups.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/query.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/product-select.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/mixins.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/cmd-line.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/searchObject.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/ticker.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/side-menu.coffee",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/kalkulator/index.html",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/app.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/initialize.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/marketForm.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/priceForm.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade/productForm.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/trade.coffee",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/klasa2f.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/kolorowanka2/kolorowanka.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/kolorowanka2/kolorowanka _basic.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/popup/index_wzor.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/index.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/popup/index.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/algorytmy.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/przyklad.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/funkcje_zadania.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/java_script_hints.html",
+		"/home/pawel/Repository/bitbucket/agflow/web/client/compiled/js/vendor.js",
+		"/home/pawel/Repository/bitbucket/agflow/web/client/vendor/js/spectrum.js",
+		"/home/pawel/log.txt",
+		"/home/pawel/log2.txt",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/obrazki/zadanie1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/obrazki/obraz1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/Obrazki/index_1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/losowaTablica.js",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/petle i tablice/zadanie1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/petle i tablice/zadanie2.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/petle i tablice/zadanie3.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/petle i tablice/zadanie4.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/canvas.js",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/obrazki.zip",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/obrazki/obrazki5.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/tablice/zadanie1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/tablice/zadanie2.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/tablice/zadanie4.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/tablice/zadanie3.html",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/reports.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/templates/webapp/libs.js",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/styles/components/reports.less",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/utils/tools.coffee",
+		"/home/pawel/.config/sublime-text-3/Packages/Better CoffeeScript/CoffeeScript.sublime-settings",
+		"/home/pawel/.config/sublime-text-3/Packages/User/CoffeeScript.sublime-settings",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/users-page.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/flow-explorer.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/reports.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/analyticReports.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/quote.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/lineups.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/tandt.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/styles/temporary.less",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/styles/temporary.less",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/test/unit/initialize.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/test/unit/utils/url.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/test/functional/crawler_test.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/form.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/styles/reports.less",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/compiled/stylesheets/admin.css",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/profile.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/home.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/compiled/stylesheets/app.css",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/ajax_upload.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/utils/html5shim.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/users-page.coffee",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/poprawnośćFormularza/index_normal.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/poprawnośćFormularza/index_pro.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/ćwiczenia/zadanie1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/ćwiczenia/takie same/zadanie2.txt",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/ćwiczenia/takie same/zadanie1.txt",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/ćwiczenia/zadanie4.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/ćwiczenia/zadanie3.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/ćwiczenia/zadanie2.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/if-else/zadanie3.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/else-if/zadanie2.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/okienka/okienka_6.html",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/node_modules/brunch/CHANGELOG.md",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/utils/url.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/cash-price.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/suggestion.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/app.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/search.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/profile.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/streams.coffee",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/cash-price.coffee",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/potwory2/gra.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/potwory/gra.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/if-else/zadanie1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/if/zadanie1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/else-if/zadanie1.html",
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/.gitignore",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/if-else/zadanie2.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/if/zadanie4.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/if/zadanie3.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/if/zadanie2.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/operatory logiczne/zadanie2.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/operatoryPorownania/zadanie3.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/operatory logiczne/zadanie1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/operatoryLogiczne/zadanie4.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/operatoryLogiczne/zadanie3.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/operatoryLogiczne/zadanie2.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 145.0,
+		"where_history":
+		[
+			"/home/pawel/work/src/bitbucket.org/agflow/web/client",
+			"<open folders>",
+			"/home/pawel/work/src/bitbucket.org/agflow/web/client",
+			"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components",
+			"/home/pawel/work/src/bitbucket.org/agflow/web/admin",
+			"/home/pawel/work/src/bitbucket.org/agflow/web/",
+			"/home/pawel/work/src/bitbucket.org/agflow/web/client/app",
+			"<open folders>",
+			"<current file>",
+			"<open folders>",
+			"<current file>",
+			"<open folders>",
+			"<current file>",
+			"<current file>,<open folders>",
+			"<current file>",
+			"<current file>,/home/pawel/work/src/bitbucket.org/agflow/web/client/app",
+			"<current file>",
+			"<current file>,/home/pawel/work/src/bitbucket.org/agflow/web/client/app",
+			"<current file>",
+			"/home/pawel/work/src/bitbucket.org/agflow/web/client/test/unit/utils/url.coffee",
+			"/home/pawel/work/src/bitbucket.org/agflow/web/client/app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"G.Fa",
+			"onCSVExport",
+			"saveas",
+			"tutorial",
+			"chartBuilde",
+			"newFlow",
+			"intro",
+			".typed",
+			"typed",
+			"RadioButtonBlock",
+			"changePrice",
+			"withDay",
+			"_",
+			"\"}\"",
+			"\"{\"",
+			"\"\\n",
+			"Commodity origin",
+			"CreatedOn",
+			"appDat",
+			"onOp",
+			"onclose",
+			"select",
+			"mkSuggestions",
+			",\"shortText",
+			"\"id\":",
+			"\"TypeText",
+			"\"Text",
+			"\"Short",
+			"\"Id\"",
+			"defaul",
+			"closeEdi",
+			"onselec",
+			"available",
+			"updatedSelected",
+			"mksearchObjects",
+			"updatedSele",
+			"hasType",
+			"getTicker",
+			"mksearchObjects",
+			"query",
+			"allPro",
+			"all",
+			"dispatch",
+			"query: ",
+			"query",
+			"mkSuggestion",
+			"console.log",
+			"getValue",
+			"searchObject",
+			"searchObject(",
+			"shortText",
+			"item.shortText",
+			"div",
+			"idsForComart",
+			"searchO",
+			"mkavai",
+			"onquery",
+			"$.",
+			"jquery",
+			"mkAva",
+			"share",
+			"tradeForm",
+			"productForm",
+			"marketForm",
+			"formatselection",
+			"onSele",
+			"-",
+			"trade",
+			"product",
+			"/trade",
+			"/trade.coffee",
+			"searchObjectfactory",
+			"AppHeader",
+			"renderLinksAndCommandLine",
+			"cmdLine",
+			"/trade",
+			"<a.*</a>",
+			"promised-io",
+			"Date.createNewFormat",
+			"createNewFormat",
+			"h3",
+			"3,",
+			"2,",
+			"3,",
+			"2,",
+			"1,",
+			": error",
+			"getUrlFromCurrentUseCase",
+			"stripDiacritics",
+			"DIACRITICS",
+			"\",\"",
+			"console",
+			"checkbox",
+			"onClick",
+			"stopProp",
+			"confirm",
+			"removeFile",
+			"confirm",
+			"card",
+			"dd",
+			"card__content",
+			".fail(",
+			"put\"",
+			"ajax",
+			"onSucc",
+			"renderReportFile",
+			"isReportAccessible",
+			"onchange",
+			"checkbox",
+			" isReportAccessible",
+			"classNames",
+			"isReportAccessible",
+			"repeating-linear-gradient",
+			"M.form.options",
+			"FileUploader",
+			"acce",
+			"/api/feed",
+			"options",
+			"#mainContentFull.reports .input-block input, ",
+			"packageForm",
+			"manual_plan",
+			" DOM.select",
+			"type",
+			"\"type\"",
+			"Type of payment",
+			"radio",
+			"availableOnTrial",
+			"RadioButtonBlock"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"}",
+			"{\"",
+			"\",\\n",
+			"Location",
+			"\",\"shortText",
+			"\"id\":\"",
+			"\"typeText",
+			"\"text",
+			"\"short",
+			"\"id\"",
+			"",
+			"h2",
+			"2,",
+			"10,",
+			"9,",
+			"8,",
+			"7,",
+			"6,",
+			"5,",
+			"4,",
+			"3,",
+			"2,",
+			"\", \"",
+			"liczba<",
+			"wiek",
+			"alert",
+			"",
+			"margin-left:",
+			"span",
+			"\"",
+			")",
+			"(",
+			"\n<current file>\n<current file>\nencodeAndDecode",
+			"<current file>\n<current file>\n<current file>\nencodeAndDecode",
+			"urlToObject",
+			"objectToUrl",
+			"#"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "node_modules/snapsvg/demos/tutorial/1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								694,
+								694
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "__tests__/sum-test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "array2d.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"use-case",
+				"client/app/use-cases.coffee"
+			],
+			[
+				"initi",
+				"client/app/initialize.coffee"
+			],
+			[
+				"form.",
+				"client/app/components/form.coffee"
+			],
+			[
+				"trade.less",
+				"client/app/styles/trade.less"
+			],
+			[
+				"sele",
+				"client/app/components/select.coffee"
+			],
+			[
+				"simple-select",
+				"client/app/components/trade/simple-select.coffee"
+			],
+			[
+				"market-form",
+				"client/app/components/trade/market-form.coffee"
+			],
+			[
+				"select.",
+				"client/app/components/select.coffee"
+			],
+			[
+				"cmd-lin",
+				"client/app/components/cmd-line.coffee"
+			],
+			[
+				"side-",
+				"client/app/components/side-menu.coffee"
+			],
+			[
+				"mixin.coff",
+				"client/app/components/mixins.coffee"
+			],
+			[
+				"select.coffee",
+				"client/app/components/select.coffee"
+			],
+			[
+				"ticker.coff",
+				"client/app/model/ticker.coffee"
+			],
+			[
+				"query",
+				"client/app/model/query.coffee"
+			],
+			[
+				"cmd",
+				"client/app/components/cmd-line.coffee"
+			],
+			[
+				"mixins",
+				"client/app/components/mixins.coffee"
+			],
+			[
+				"cmd-line",
+				"client/app/components/cmd-line.coffee"
+			],
+			[
+				"app",
+				"client/app/app.coffee"
+			],
+			[
+				"prodc",
+				"client/app/components/trade/product-form.coffee"
+			],
+			[
+				"app.",
+				"client/app/app.coffee"
+			],
+			[
+				"searchobject",
+				"client/app/model/searchObject.coffee"
+			],
+			[
+				"trade.coffee",
+				"client/app/components/trade.coffee"
+			],
+			[
+				"klasa2f",
+				"PawelAdamski.github.io/klasa2f.html"
+			],
+			[
+				"index_wzo",
+				"PawelAdamski.github.io/JavaScript/popup/index_wzor.html"
+			],
+			[
+				"klas",
+				"PawelAdamski.github.io/klasa2f.html"
+			],
+			[
+				"kasa",
+				"PawelAdamski.github.io/klasa2f.html"
+			],
+			[
+				"klasa",
+				"PawelAdamski.github.io/klasa2f.html"
+			],
+			[
+				"index",
+				"PawelAdamski.github.io/index.html"
+			],
+			[
+				"reports.less",
+				"client/admin/styles/components/reports.less"
+			],
+			[
+				"tools",
+				"client/app/utils/tools.coffee"
+			],
+			[
+				"tools.coffe",
+				"client/app/utils/tools.coffee"
+			],
+			[
+				"reports",
+				"client/admin/components/reports.coffee"
+			],
+			[
+				"form.cofee",
+				"client/app/model/form.coffee"
+			],
+			[
+				"craw",
+				"client/test/functional/crawler_test.coffee"
+			],
+			[
+				"url.coffee",
+				"client/test/unit/utils/url.coffee"
+			],
+			[
+				"",
+				"client/app/styles/reports.less"
+			],
+			[
+				"ajaxu",
+				"client/app/components/ajax_upload.coffee"
+			],
+			[
+				"html5shim",
+				"client/app/utils/html5shim.coffee"
+			],
+			[
+				"report",
+				"client/app/components/reports.coffee"
+			],
+			[
+				"use",
+				"client/app/use-cases.coffee"
+			],
+			[
+				"tandt",
+				"client/app/components/tandt.coffee"
+			],
+			[
+				"home.coffee",
+				"client/app/components/home.coffee"
+			],
+			[
+				"/use-cases.coffee",
+				"client/app/use-cases.coffee"
+			],
+			[
+				"cash-price.coffee",
+				"client/app/model/cash-price.coffee"
+			],
+			[
+				"stream.cofee",
+				"client/app/components/streams.coffee"
+			],
+			[
+				"kla",
+				"PawelAdamski.github.io/klasa2f.html"
+			],
+			[
+				"app.cofee",
+				"client/app/app.coffee"
+			],
+			[
+				"profile.less",
+				"client/admin/styles/components/profile.less"
+			],
+			[
+				"futures.coffee",
+				"client/app/components/futures.coffee"
+			],
+			[
+				"struct",
+				"client/app/utils/struct.coffee"
+			],
+			[
+				"prof",
+				"client/admin/components/profile.coffee"
+			],
+			[
+				"noti",
+				"client/admin/components/notif-feature.coffee"
+			],
+			[
+				"ajax.coffee",
+				"client/app/utils/ajax.coffee"
+			],
+			[
+				"search.coffee",
+				"client/app/components/search.coffee"
+			],
+			[
+				"searh",
+				"client/bower_components/select2/src/js/select2/selection/search.js"
+			],
+			[
+				"price",
+				"client/app/components/cash-price.coffee"
+			],
+			[
+				"lineups.coffee",
+				"client/app/components/lineups.coffee"
+			],
+			[
+				"fu",
+				"client/app/components/futures-details.coffee"
+			],
+			[
+				"/futures-details.coffee",
+				"client/app/components/futures-details.coffee"
+			],
+			[
+				"useca",
+				"client/app/use-cases.coffee"
+			],
+			[
+				"cmd-line.coffe",
+				"client/app/components/cmd-line.coffee"
+			],
+			[
+				"index.coff",
+				"client/test/index.coffee"
+			],
+			[
+				"futures",
+				"client/app/components/futures.coffee"
+			],
+			[
+				"future",
+				"client/app/components/futures.coffee"
+			],
+			[
+				"index.coffee",
+				"client/test/index.coffee"
+			],
+			[
+				"index.",
+				"client/test/index.coffee"
+			],
+			[
+				"url.cofee",
+				"client/test/unit/utils/url.coffee"
+			],
+			[
+				"url.co",
+				"client/test/unit/utils/url.coffee"
+			],
+			[
+				"u",
+				"client/app/use-cases.coffee"
+			],
+			[
+				"/test/url",
+				"client/test/unit/utils/url.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 818.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

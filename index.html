@@ -1,13 +1,79 @@
 <html>	
+<head>
+<style>
+	
+#svg {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 2px #ccc;
+    width: 900px;
+    height: 900px;
+    float: left;
+    margin-right: 10px;
+    font: 1em source-sans-pro, Source Sans Pro, Helvetica, sans-serif;
+}
+</style>
+</head>
 <body>
-	<script src="src/array2d.js">
+	<script src="array2d.js">
 	</script>
 
+	<script src="node_modules/snapsvg/dist/snap.svg-min.js">
+	</script>
+
+	<svg id="svg">
+	</svg>
+
 	<script>
-	var a = new array2d(10);
-	a[4] = 6;
-	a[1]= a[4];
-	console.log(a.log);
+	var a = new array2d(100);
+	for (var i=2;i<100;i++) {
+		if (a[i]) {
+			continue;
+		}
+		for (var j=i*2;j<100;j+=i) {
+			a[j] = true;
+		}
+	}
+	var s = Snap("#svg");
+	for (var i=1;i<=100; i++ ) {
+
+		y = Math.floor((i-1)/10);
+		x = (i-1)%10;
+
+		var text = s.text((x+1)*50-25, (y+1)*50-25, i);
+		text.attr({
+		    'font-size':15
+		});
+
+	}
+
+
+
+	rysuj = function () {
+		if (a.log.length==0) {
+			clearInterval(rysowanie);
+			return;
+		}
+		t = a.log.shift().index-1;
+		y = Math.floor(t/10);
+		x = t%10;
+		console.log(t.index,x,y);
+		r = s.rect(x*50, y*50, 50, 50);
+		r.attr({
+			fill: "red",
+			"fill-opacity": 0.2,
+		    stroke: "#000",
+		    strokeWidth: 5
+		});
+	}
+
+
+	rysowanie = setInterval(rysuj,100);
+
+
+
+
 	</script>
 </body>
-</html>
+</htmlsolwz4edxr>
