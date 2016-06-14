@@ -16,33 +16,24 @@
 </style>
 </head>
 <body>
-	<script src="array2d.js">
-	</script>
+	<script src="array2d.js"></script>
+	<script src="rysowanie.js"></script>
+	<script src="algorithms/bubbleSort.js"></script>
+	<script src="node_modules/snapsvg/dist/snap.svg-min.js"></script>
 
-	<script src="rysowanie.js">
-	</script>
-
-	<script src="node_modules/snapsvg/dist/snap.svg-min.js">
-	</script>
-
-	<svg id="svg">
-	</svg>
+	<svg id="svg"></svg>
 
 	<script>
 	var a = new array2d(100);
 	a.shuffle(100);
 
-	for (var i=0;i<100;i++) {
-		for (var j=i+1;j<100;j++) {
-			if (a.isLess(i,j)) {
-				a.swap(i,j);
-			}
-		}
-	}
+	var sf = Snap("#svg");
+	var rect = sf.rect(0, 0, 10, 10);
+	rect.animate({x: 100}, 1000);
 
-
-
-	console.log(a.tab)
+	p = new Painter(100,a.log);
+	p.start();
+	p.text(a.firstState);
 
 
 
