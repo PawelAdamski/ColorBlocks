@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/pawel/Repository/github/DrogaDoNieba"
 		}
 	]
 }

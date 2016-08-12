@@ -1,6 +1,6 @@
 
 
-function sort(array){
+function bubbleSort(array){
 	n = array.length();
 	for (var i=0; i<n; i++) {
 		for (var j=0; j<n-i; j++) {
@@ -12,4 +12,4 @@ function sort(array){
 }
 
 
-module.exports = sort
+//module.exports = sort

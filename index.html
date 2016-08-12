@@ -1,14 +1,14 @@
-<html>	
+<html>
 <head>
 <style>
-	
-#svg {
+
+svg {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     border: solid 2px #ccc;
-    width: 900px;
-    height: 900px;
+    width: 650px;
+    height: 630px;
     float: left;
     margin-right: 10px;
     font: 1em source-sans-pro, Source Sans Pro, Helvetica, sans-serif;
@@ -16,23 +16,78 @@
 </style>
 </head>
 <body>
-	<script src="array2d.js">
-	</script>
+	<script src="node_modules/snapsvg/dist/snap.svg-min.js"></script>
+    <script src="histogram.js"></script>
+    <script src="algorithms/bubbleSort.js"></script>
+    <script src="algorithms/insertSort.js"></script>
+    <script src="algorithms/quickSort.js"></script>
+    <script src="algorithms/mergeSort.js"></script>
+    <script src="algorithms/heapSort.js"></script>
+    <script src="array.js"></script>
+    <script src="player.js"></script>
+	<svg id="svg"></svg>
+    <svg id="svg2"></svg>
+    <svg id="svg3"></svg>
+    <svg id="svg4"></svg>
+    <svg id="svg5"></svg>
 
-	<script src="rysowanie.js">
-	</script>
 
-	<script src="algorithms/sieve_eratosthenes.js"></script>
 
-	<script src="node_modules/snapsvg/dist/snap.svg-min.js">
-	</script>
-
-	<svg id="svg">
-	</svg>
 
 	<script>
-	sieve(100)
-	new Painter(100,a.log).start()
+    var tab = randomTab(100);
+    var input = new array(tab);
+    var input2 = new array(tab);
+    var input3 = new array(tab);
+    var input4 = new array(tab);
+    var input5 = new array(tab);
+
+
+    var s = 6;
+
+    //BUBBLE SORT
+	var a = new VisualHistogram("#svg",s,s);
+	a.init(input);
+    input.startRecording();
+    bubbleSort(input);
+    input.finishRecording();
+
+    //INSERT SORT
+    var a2 = new VisualHistogram("#svg2",s,s);
+    a2.init(input2);
+    input2.startRecording();
+    insertSort(input2,0,input2.length()-1);
+    input2.finishRecording();
+
+    //QUICKSORT
+    var a3 = new VisualHistogram("#svg3",s,s);
+    a3.init(input3);
+    input3.startRecording();
+    quickSort(input3,0,input3.length()-1);
+    input3.finishRecording();
+
+    //MERGESORT
+    var a4 = new VisualHistogram("#svg4",s,s);
+    a4.init(input4);
+    input4.startRecording();
+    mergeSort(input4,0,input4.length()-1);
+    input4.finishRecording();
+
+    //HEAPESORT
+    var a5 = new VisualHistogram("#svg5",s,s);
+    a5.init(input5);
+    input5.startRecording();
+    heapSort(input5);
+    input5.finishRecording();
+
+
+    play(input.log,a,"swap");
+    play(input2.log,a2,"swap");
+    play(input3.log,a3,"swap");
+    play(input4.log,a4,"set");
+    play(input5.log,a5,"swap");
+
 	</script>
 </body>
-</htmlsolwz4edxr>
+</html>
+

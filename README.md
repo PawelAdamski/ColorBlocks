@@ -1,2 +1,2 @@
 # ColorBlocks
-Library for visualizing algorithm behavior. 
+Visualization of sorting algorithms.
