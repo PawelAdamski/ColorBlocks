@@ -1,7 +1,7 @@
 
 
 function bubbleSort(array){
-	n = array.length();
+	const n = array.length();
 	for (var i=0; i<n; i++) {
 		for (var j=0; j<n-i; j++) {
 			if (array.isGreater(j,j+1)) {
@@ -12,4 +12,4 @@ function bubbleSort(array){
 }
 
 
-//module.exports = sort
+module.exports = bubbleSort;

@@ -1,6 +1,6 @@
 
 var assert = require('chai').assert;
-var bubbleSort = require('../algorithms/bubbleSort');
+var bubbleSort = require('src/algorithms/bubbleSort');
 var array = require('../tracers/array');
 
 describe('array', function() {
