@@ -4,16 +4,16 @@ function mergeSort(array, start, end){
 	if (start>=end) {
 		return;
 	}
-	let h = Math.floor((end-start)/2)+start;
+	var h = Math.floor((end-start)/2)+start;
 	mergeSort(array,start,h);
 	mergeSort(array,h+1,end);
 	merge(array,start,h,end);
 }
 
 function merge(array,start,h,end) {
-	let b = [];
-	let i = start;
-	let j = h+1;
+	var b = [];
+	var i = start;
+	var j = h+1;
 	while (i<=h && j<=end) {
 		if (array[i]<array[j]) {
 			b.push(array[i]);

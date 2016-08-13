@@ -53,8 +53,8 @@ function array(data){
 
 	this.createProps = function(n) {
 		return {
-			  get: () => {this.addLog({index:n,operation:"get"});return this.tab[n]},
-			  set: (newValue) => { this.addLog({index:n,value:newValue,operation:"set"});this.tab[n]=newValue;}
+			  get: function() {this.addLog({index:n,operation:"get"});return this.tab[n]},
+			  set: function(newValue) { this.addLog({index:n,value:newValue,operation:"set"});this.tab[n]=newValue;}
 	};
 }
 

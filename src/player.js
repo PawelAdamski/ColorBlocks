@@ -12,7 +12,7 @@ function play(logs,visual,operation) {
 	            clearInterval(rysowanie);
 	            return;
 	        }
-	        let e = l.shift();
+	        var e = l.shift();
 	        if (e.operation === "swap") {
 	        	visual.swap(e.left,e.right);
 	    	} else if (e.operation ==="set") {
