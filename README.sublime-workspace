@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"insertSort"
+			],
+			[
+				"alg",
+				"algorithm"
+			],
+			[
+				"algori",
+				"algorithms"
+			],
+			[
+				"algo",
+				"algorithms"
+			],
+			[
 				"for",
 				"for	for (…) {…}"
 			],
@@ -180,10 +196,6 @@
 				"inline-block"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
 				"mat",
 				"maturitiesList"
 			],
@@ -228,15 +240,23 @@
 	"buffers":
 	[
 		{
-			"file": "algorithms/quickSort.js",
+			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 308,
+				"buffer_size": 198,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "algorithms/mergeSort.js",
+			"file": "src/histogram.js",
+			"settings":
+			{
+				"buffer_size": 1855,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/algorithms/mergeSort.js",
 			"settings":
 			{
 				"buffer_size": 550,
@@ -244,10 +264,18 @@
 			}
 		},
 		{
-			"file": "histogram.js",
+			"file": "src/player.js",
 			"settings":
 			{
-				"buffer_size": 1799,
+				"buffer_size": 563,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/algorithms/main.js",
+			"settings":
+			{
+				"buffer_size": 441,
 				"line_ending": "Unix"
 			}
 		},
@@ -255,32 +283,63 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1881,
+				"buffer_size": 2222,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "player.js",
+			"file": "test/sorting_test.js",
 			"settings":
 			{
-				"buffer_size": 744,
+				"buffer_size": 940,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "algorithms/heapSort.js",
+			"file": "src/algorithms/quickSort.js",
 			"settings":
 			{
-				"buffer_size": 32,
-				"line_ending": "Unix",
-				"name": "sdf"
+				"buffer_size": 418,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "array.js",
+			"file": "src/algorithms/insertSort.js",
 			"settings":
 			{
-				"buffer_size": 1544,
+				"buffer_size": 200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/array_test.js3",
+			"settings":
+			{
+				"buffer_size": 1502,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/array.js",
+			"settings":
+			{
+				"buffer_size": 1557,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".travis.yml",
+			"settings":
+			{
+				"buffer_size": 100,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/algorithms/bubbleSort.js",
+			"settings":
+			{
+				"buffer_size": 212,
 				"line_ending": "Unix"
 			}
 		}
@@ -336,7 +395,26 @@
 	],
 	"file_history":
 	[
+		"/home/pawel/Repository/github/ColorBlocks/node_modules/cover/resources/bootstrap.css",
+		"/home/pawel/Repository/github/ColorBlocks/algorithms/insertSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/src/algorithms/shellSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/test/tab.js",
+		"/home/pawel/Repository/github/ColorBlocks/index.html",
+		"/home/pawel/Repository/github/ColorBlocks/src/algorithms/quickSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/src/algorithms/insertSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/src/histogram.js",
+		"/home/pawel/Repository/github/ColorBlocks/src/player.js",
+		"/home/pawel/Repository/github/ColorBlocks/dist/app.js",
+		"/home/pawel/Repository/github/ColorBlocks/test/array_test.js2",
+		"/home/pawel/Repository/github/DrogaDoNieba/app/www/index.html",
+		"/home/pawel/Repository/github/ColorBlocks/algorithms/quickSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/algorithms/shellSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/gulpfile.js",
+		"/home/pawel/Repository/github/ColorBlocks/algorithms/heapSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/array.js",
 		"/home/pawel/Repository/github/ColorBlocks/algorithms/mergeSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/histogram.js",
+		"/home/pawel/Repository/github/ColorBlocks/player.js",
 		"/home/pawel/Repository/github/ColorBlocks/README.sublime-project",
 		"/home/pawel/Repository/github/ColorBlocks/README.md",
 		"/home/pawel/Repository/github/ColorBlocks/sort.html",
@@ -348,7 +426,6 @@
 		"/home/pawel/Repository/github/DrogaDoNieba/app/www/piesn.html",
 		"/home/pawel/Repository/github/DrogaDoNieba/app/www/js/piesni.js",
 		"/home/pawel/Repository/github/DrogaDoNieba/app/www/js/init.js",
-		"/home/pawel/Repository/github/DrogaDoNieba/app/www/index.html",
 		"/home/pawel/Repository/github/DrogaDoNieba/app/www/js/app.js",
 		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/cash-price.coffee",
 		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/search.coffee",
@@ -362,15 +439,10 @@
 		"/home/pawel/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/pawel/phonegap/workshop/www/index.html",
 		"/home/pawel/Repository/github/ColorBlocks/histogram.html",
-		"/home/pawel/Repository/github/ColorBlocks/algorithms/insertSort.js",
-		"/home/pawel/Repository/github/ColorBlocks/algorithms/quickSort.js",
-		"/home/pawel/Repository/github/ColorBlocks/player.js",
 		"/home/pawel/Repository/github/ColorBlocks/algorithms/bubbleSort.js",
 		"/home/pawel/Repository/github/ColorBlocks/test/bubble_sort_test.js",
 		"/home/pawel/Repository/github/ColorBlocks/test/array_test.js",
 		"/home/pawel/Repository/github/ColorBlocks/tracers/array.js",
-		"/home/pawel/Repository/github/ColorBlocks/histogram.js",
-		"/home/pawel/Repository/github/ColorBlocks/index.html",
 		"/home/pawel/Repository/github/ColorBlocks/algorithms/sieve_eratosthenes.js",
 		"/home/pawel/Repository/github/ColorBlocks/array2d.js",
 		"/home/pawel/Repository/github/ColorBlocks/test/test.js",
@@ -450,20 +522,7 @@
 		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/utils/tools.coffee",
 		"/home/pawel/.config/sublime-text-3/Packages/Better CoffeeScript/CoffeeScript.sublime-settings",
 		"/home/pawel/.config/sublime-text-3/Packages/User/CoffeeScript.sublime-settings",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/users-page.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/flow-explorer.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/reports.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/analyticReports.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/quote.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/lineups.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/tandt.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/styles/temporary.less",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/styles/temporary.less",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/test/unit/initialize.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/test/unit/utils/url.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/test/functional/crawler_test.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/model/form.coffee",
-		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/styles/reports.less"
+		"/home/pawel/work/src/bitbucket.org/agflow/web/client/admin/components/users-page.coffee"
 	],
 	"find":
 	{
@@ -474,6 +533,8 @@
 		"height": 145.0,
 		"where_history":
 		[
+			"/home/pawel/Repository/github/ColorBlocks/src",
+			"/home/pawel/Repository/github/ColorBlocks",
 			"/home/pawel/work/src/bitbucket.org/agflow/web/client",
 			"<open folders>",
 			"/home/pawel/work/src/bitbucket.org/agflow/web/client",
@@ -502,6 +563,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"const",
+			"let",
+			"const",
+			"let",
+			"slice",
+			"let",
+			"assert.equal(",
+			"mocha",
 			"et",
 			"font-size",
 			"GORZKIE ŻALE",
@@ -621,15 +690,7 @@
 			"DIACRITICS",
 			"\",\"",
 			"console",
-			"checkbox",
-			"onClick",
-			"stopProp",
-			"confirm",
-			"removeFile",
-			"confirm",
-			"card",
-			"dd",
-			"card__content"
+			"checkbox"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -637,6 +698,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"var",
+			"",
 			"Gorzkie żale",
 			"//",
 			"\"}",
@@ -686,24 +749,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 11,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "algorithms/quickSort.js",
+					"file": "gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 308,
+						"buffer_size": 198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								308,
-								308
+								131,
+								131
 							]
 						],
 						"settings":
@@ -721,7 +784,36 @@
 				},
 				{
 					"buffer": 1,
-					"file": "algorithms/mergeSort.js",
+					"file": "src/histogram.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/algorithms/mergeSort.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -732,8 +824,37 @@
 						"selection":
 						[
 							[
-								26,
-								26
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
 							]
 						],
 						"settings":
@@ -744,53 +865,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "histogram.js",
+					"buffer": 4,
+					"file": "src/algorithms/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1799,
+						"buffer_size": 441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								801,
-								801
+								438,
+								438
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 73.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1881,
+						"buffer_size": 2222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								760,
-								760
+								734,
+								734
 							]
 						],
 						"settings":
@@ -800,27 +921,202 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 28.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "player.js",
+					"buffer": 6,
+					"file": "test/sorting_test.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 744,
+						"buffer_size": 940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								43,
-								43
+								932,
+								932
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 149.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/algorithms/quickSort.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/algorithms/insertSort.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "test/array_test.js3",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/array.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": ".travis.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/algorithms/bubbleSort.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
 							]
 						],
 						"settings":
@@ -832,64 +1128,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "algorithms/heapSort.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"auto_name": "sdf",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "array.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1544,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1073,
-								1073
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 278.0,
-						"translation.y": 507.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -944,8 +1182,60 @@
 		"selected_items":
 		[
 			[
+				"histog",
+				"ColorBlocks/src/histogram.js"
+			],
+			[
+				"inde",
+				"ColorBlocks/index.html"
+			],
+			[
+				"quickso",
+				"ColorBlocks/src/algorithms/quickSort.js"
+			],
+			[
+				"inser",
+				"ColorBlocks/algorithms/insertSort.js"
+			],
+			[
+				"bubble",
+				"ColorBlocks/src/algorithms/bubbleSort.js"
+			],
+			[
+				"array",
+				"ColorBlocks/src/array.js"
+			],
+			[
+				"player.js",
+				"ColorBlocks/src/player.js"
+			],
+			[
+				"app.js",
+				"ColorBlocks/dist/app.js"
+			],
+			[
+				"bubb",
+				"ColorBlocks/src/algorithms/bubbleSort.js"
+			],
+			[
+				"bubblesort",
+				"ColorBlocks/src/algorithms/bubbleSort.js"
+			],
+			[
 				"index.html",
-				"DrogaDoNieba/app/www/index.html"
+				"ColorBlocks/index.html"
+			],
+			[
+				"array.js",
+				"ColorBlocks/src/array.js"
+			],
+			[
+				"histo",
+				"ColorBlocks/src/histogram.js"
+			],
+			[
+				"gulp",
+				"ColorBlocks/gulpfile.js"
 			],
 			[
 				"index.h",

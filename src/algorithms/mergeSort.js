@@ -1,12 +1,16 @@
 
 
-function mergeSort(array, start, end){
+function mergeSort(array) {
+	mergeSortRec(array,0,array.length()-1)
+}
+
+function mergeSortRec(array, start, end){
 	if (start>=end) {
 		return;
 	}
 	var h = Math.floor((end-start)/2)+start;
-	mergeSort(array,start,h);
-	mergeSort(array,h+1,end);
+	mergeSortRec(array,start,h);
+	mergeSortRec(array,h+1,end);
 	merge(array,start,h,end);
 }
 
@@ -33,3 +37,6 @@ function merge(array,start,h,end) {
 		array[start+i] = b[i];
 	}
 }
+
+
+module.exports = mergeSort;

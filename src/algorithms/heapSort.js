@@ -40,3 +40,6 @@ function heapify(array, i, heapSize) {
 		}
 	}
 }
+
+
+module.exports = heapSort;
