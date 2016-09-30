@@ -11,5 +11,5 @@ function bubbleSort(array){
 	}
 }
 
-
-module.exports = bubbleSort;
+var hasModules = module != undefined
+if (hasModules) {module.exports = bubbleSort;}

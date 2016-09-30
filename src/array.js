@@ -82,4 +82,7 @@ function shuffle(a) {
     }
 }
 
-module.exports = array
+var hasModules = module != undefined
+if (hasModules) {module.exports = array;}
+
+

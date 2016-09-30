@@ -41,5 +41,5 @@ function heapify(array, i, heapSize) {
 	}
 }
 
-
-module.exports = heapSort;
+var hasModules = module != undefined
+if (hasModules){module.exports = heapSort;}

@@ -12,4 +12,5 @@ function insertSort(array){
 
 
 
-module.exports = insertSort;
+var hasModules = module != undefined
+if (hasModules) {module.exports = insertSort;}

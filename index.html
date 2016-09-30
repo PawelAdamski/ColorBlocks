@@ -7,12 +7,27 @@ svg {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     border: solid 2px #ccc;
-    width: 650px;
-    height: 630px;
-    float: left;
+    width: 350px;
+    height: 330px;
+    display: inline-block;
     margin-right: 10px;
     font: 1em source-sans-pro, Source Sans Pro, Helvetica, sans-serif;
 }
+
+
+#menu {
+    width:200px;
+    float:right;
+    border:1px solid black;
+    height:100%;
+}
+
+#menu button {
+    display:block;
+    margin: 10px;
+    width: 150px;
+}
+
 </style>
 </head>
 <body>
@@ -25,68 +40,80 @@ svg {
     <script src="src/algorithms/heapSort.js"></script>
     <script src="src/array.js"></script>
     <script src="src/player.js"></script>
-	<svg id="svg"></svg>
-    <svg id="svg2"></svg>
-    <svg id="svg3"></svg>
-    <svg id="svg4"></svg>
-    <svg id="svg5"></svg>
+    <script src="src/arrayGeneration.js"></script>
+    <script src="src/main.js"></script>
 
 
+    <div id="menu">
+        <button onclick="app.start()">Start</button>
+        <button onclick="app.stop()">Stop</button>
+        Speed:
+        <input type="range" id="speed" value="50" min="0" max="100" onchange="app.changeSpeed(this.value)">`
+        <hr/>
+        <div id = "listOfAlgorithms"></div>
+        <hr/>
+        <div id = "listOfArrayGenerationMethods"></div>
+        <input id="size"/>
+        <button onclick="reset()">Reset</button>
+    </div>
+
+    <div id="main">
+    	<svg id="svg-0"></svg>
+        <svg id="svg-1"></svg>
+        <svg id="svg-2"></svg>
+        <svg id="svg-3"></svg>
+        <svg id="svg-4"></svg>
+    </div>
 
 
 	<script>
-    var tab = randomTab(100);
-    var input = new array(tab);
-    var input2 = new array(tab);
-    var input3 = new array(tab);
-    var input4 = new array(tab);
-    var input5 = new array(tab);
+
+    for (var i=0; i<algorithms.length; i++ ) {
+        var div= document.createElement("div");
+        var description = document.createTextNode(algorithms[i].name);
+        var checkbox = document.createElement("input");
+
+        checkbox.type = "checkbox";    // make the element a checkbox
+        checkbox.value = algorithms[i].name;      // give it a name we can check on the server side
+
+        div.appendChild(checkbox);   // add the box to the element
+        div.appendChild(description);
+
+        document.getElementById('listOfAlgorithms').appendChild(div);
+    }
+
+    for (var p in arrayGeneration ) {
+        var div= document.createElement("div");
+        var description = document.createTextNode(p);
+        var radio = document.createElement("input");
+
+        radio.type = "radio";    // make the element a checkbox
+        radio.value = p;
+        radio.name = "dataOrder";      // give it a name we can check on the server side
+
+        div.appendChild(radio);   // add the box to the element
+        div.appendChild(description);
+
+        document.getElementById('listOfArrayGenerationMethods').appendChild(div);
+    }
 
 
-    var s = 6;
 
-    //BUBBLE SORT
-	var a = new VisualHistogram("#svg",s,s);
-	a.init(input);
-    input.startRecording();
-    bubbleSort(input);
-    input.finishRecording();
+    function reset() {
+        var selectedAlgorithms = [];
+        var ai = document.querySelector("input[type='checkbox']:checked");
+        for (var i = 0; i < ai.length; i++) {
+            selectedAlgorithms.push(getAlgorithm(ai[i].value))
+        }
+        console.log(selectedAlgorithms)
 
-    //INSERT SORT
-    var a2 = new VisualHistogram("#svg2",s,s);
-    a2.init(input2);
-    input2.startRecording();
-    insertSort(input2,0,input2.length()-1);
-    input2.finishRecording();
+        var val = document.getElementById("size").value;
+        val = parseInt(val);
+        var dataOrder = document.querySelector('input[name="dataOrder"]:checked').value;
+        app.startNew(val,dataOrder,selectedAlgorithms);
+    }
 
-    //QUICKSORT
-    var a3 = new VisualHistogram("#svg3",s,s);
-    a3.init(input3);
-    input3.startRecording();
-    quickSort(input3,0,input3.length()-1);
-    input3.finishRecording();
-
-    //MERGESORT
-    var a4 = new VisualHistogram("#svg4",s,s);
-    a4.init(input4);
-    input4.startRecording();
-    mergeSort(input4,0,input4.length()-1);
-    input4.finishRecording();
-
-    //HEAPESORT
-    var a5 = new VisualHistogram("#svg5",s,s);
-    a5.init(input5);
-    input5.startRecording();
-    heapSort(input5);
-    input5.finishRecording();
-
-
-    play(input.log,a,"swap");
-    play(input2.log,a2,"swap");
-    play(input3.log,a3,"swap");
-    play(input4.log,a4,"set");
-    play(input5.log,a5,"swap");
-
+    app.startNew(50,"Random",algorithms);
 	</script>
 </body>
 </html>

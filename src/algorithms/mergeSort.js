@@ -39,4 +39,5 @@ function merge(array,start,h,end) {
 }
 
 
-module.exports = mergeSort;
+var hasModules = module != undefined
+if (hasModules) {module.exports = mergeSort;}

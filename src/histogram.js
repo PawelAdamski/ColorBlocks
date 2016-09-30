@@ -11,7 +11,7 @@ function VisualHistogram(svgSelector,width,height) {
 
 
 		this.snap = Snap(svgSelector);
-		for (var i=0; i<data.length(); i++ ) {
+		for (var i=0; i<data.length; i++ ) {
 
 			var canvasHeight = document.querySelector(svgSelector).clientHeight;
 			var x = i*width+width;
@@ -62,30 +62,11 @@ function VisualHistogram(svgSelector,width,height) {
 		this.elements[right] = tmp;
 	};
 
+	this.clean = function() {
+	for (var i = 0; i < this.elements.length; i++) {
+    		this.elements[i].remove();
+   		}	
+	}
+
 }
 
-
-function randomTabWithDuplicates(size, max) {
-	var tab = [];
-	for ( i=0;i<size;i++) {
-		tab.push(parseInt(Math.random()*max)+1);
-	}
-	return tab;
-}
-
-
-
-function randomTab(size) {
-	var tab = [];
-	for (var i=0;i<size;i++) {
-		tab[i] = i+1;
-	}
-	for (var i=0; i<10000; i++ ) {
-		var a = parseInt(Math.random()*(size-1)+1);
-		var b = parseInt(Math.random()*(size-1)+1);
-		var tmp = tab[a];
-		tab[a] = tab[b];
-		tab[b] = tmp;
-	}
-	return tab;
-}

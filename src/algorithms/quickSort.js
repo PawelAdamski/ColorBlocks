@@ -25,4 +25,5 @@ function quickSortRec(a,start,end) {
 }
 
 
-module.exports = quickSort;
+var hasModules = module != undefined
+if (hasModules) {module.exports = quickSort;}

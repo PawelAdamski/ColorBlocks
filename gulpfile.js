@@ -10,9 +10,3 @@ gulp.task('lint', function() {
     .pipe(jshint.reporter('default'));
 });
 
-
-gulp.task('default', function() {
-  return gulp.src(['src/**/*.js'])
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
