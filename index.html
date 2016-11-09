@@ -2,13 +2,13 @@
 <head>
 <style>
 
-svg {
+svg.active {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     border: solid 2px #ccc;
-    width: 350px;
-    height: 330px;
+    width: 430px;
+    height: 420px;
     display: inline-block;
     margin-right: 10px;
     font: 1em source-sans-pro, Source Sans Pro, Helvetica, sans-serif;
@@ -38,6 +38,8 @@ svg {
     <script src="src/algorithms/quickSort.js"></script>
     <script src="src/algorithms/mergeSort.js"></script>
     <script src="src/algorithms/heapSort.js"></script>
+    <script src="src/algorithms/shellSort.js"></script>
+
     <script src="src/array.js"></script>
     <script src="src/player.js"></script>
     <script src="src/arrayGeneration.js"></script>
@@ -53,7 +55,7 @@ svg {
         <div id = "listOfAlgorithms"></div>
         <hr/>
         <div id = "listOfArrayGenerationMethods"></div>
-        <input id="size"/>
+        <input id="size" value="50"/>
         <button onclick="reset()">Reset</button>
     </div>
 
@@ -63,6 +65,7 @@ svg {
         <svg id="svg-2"></svg>
         <svg id="svg-3"></svg>
         <svg id="svg-4"></svg>
+        <svg id="svg-5"></svg>
     </div>
 
 
@@ -75,6 +78,7 @@ svg {
 
         checkbox.type = "checkbox";    // make the element a checkbox
         checkbox.value = algorithms[i].name;      // give it a name we can check on the server side
+        checkbox.checked = "checked";
 
         div.appendChild(checkbox);   // add the box to the element
         div.appendChild(description);
@@ -96,22 +100,28 @@ svg {
 
         document.getElementById('listOfArrayGenerationMethods').appendChild(div);
     }
+    randomInput = document.querySelector("input[value='Random']")
+    randomInput.checked = "checked";
 
 
 
     function reset() {
         var selectedAlgorithms = [];
-        var ai = document.querySelector("input[type='checkbox']:checked");
+        var ai = document.querySelectorAll("input[type='checkbox']:checked");
         for (var i = 0; i < ai.length; i++) {
             selectedAlgorithms.push(getAlgorithm(ai[i].value))
         }
-        console.log(selectedAlgorithms)
+        var svgs = document.querySelectorAll("svg");
+        for (var i = 0; i < svgs.length; i++) {
+            svgs[i].classList.remove('active');
+        }
 
         var val = document.getElementById("size").value;
         val = parseInt(val);
         var dataOrder = document.querySelector('input[name="dataOrder"]:checked').value;
         app.startNew(val,dataOrder,selectedAlgorithms);
     }
+
 
     app.startNew(50,"Random",algorithms);
 	</script>

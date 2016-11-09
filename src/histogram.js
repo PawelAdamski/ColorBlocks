@@ -7,13 +7,26 @@ function VisualHistogram(svgSelector,width,height) {
 	this.elements = [];
 	this.snap = {};
 
-	this.init = function (data) {
+	this.init = function (data, name) {
 
+		document.querySelector(svgSelector).classList.add('active');
 
 		this.snap = Snap(svgSelector);
-		for (var i=0; i<data.length; i++ ) {
 
-			var canvasHeight = document.querySelector(svgSelector).clientHeight;
+		line = this.snap.rect(0, 0, 450, 60);
+		line.attr({
+			    fill: "lightGrey",
+		});
+		text = this.snap.text(150, 40, name);
+	    text.attr({
+	          'font-size':25
+	    });
+
+	    this.header = this.snap.g(line,text);
+
+
+		var canvasHeight = document.querySelector(svgSelector).clientHeight;
+		for (var i=0; i<data.length; i++ ) {
 			var x = i*width+width;
 			var y = canvasHeight-height*data[i];
 			var r = this.snap.rect(x,y, width, height*data[i]);
@@ -65,7 +78,28 @@ function VisualHistogram(svgSelector,width,height) {
 	this.clean = function() {
 	for (var i = 0; i < this.elements.length; i++) {
     		this.elements[i].remove();
-   		}	
+   		}
+   		this.header.remove();
+   		if (this.summary) {
+   			this.summary.remove();
+   		}
+	}
+
+	this.finish = function(time) {
+		var r = this.snap.rect(0,60, 450,450);
+
+			r.attr({
+			    fill: "lightGrey",
+			     "fill-opacity": 0.9
+			});
+
+		text = this.snap.text(100, 250, "Time: "+time+"s");
+	    text.attr({
+	          'font-size': 50
+	    });
+
+	    this.summary = this.snap.g(r,text);
+
 	}
 
 }

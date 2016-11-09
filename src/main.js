@@ -4,7 +4,8 @@ algorithms = [
     { name: "Insert sort", operation:"swap", sort: insertSort},
     { name: "QuickSort", operation:"swap", sort: quickSort},
     { name: "Merge sort", operation:"set", sort: mergeSort},
-    { name: "Heap sort", operation:"swap", sort: heapSort}
+    { name: "Heap sort", operation:"swap", sort: heapSort},
+    { name: "Shell sort", operation:"set", sort: shellSort}
 ]
 
 function getAlgorithm(name) {
@@ -46,9 +47,9 @@ app = {
         }
 
         var players = []
-        for (var i=0; i<algorithms.length;i++) {
-            var a = new VisualHistogram("#svg-"+i, 6, 6);
-            a.init(tab);
+        for (var i=0; i<selectedAlgorithms.length;i++) {
+            var a = new VisualHistogram("#svg-"+i,"3%" , "3%");
+            a.init(tab, selectedAlgorithms[i].name);
             p = new player(inputs[i].log, a, selectedAlgorithms[i].operation);
 
             players.push(p);

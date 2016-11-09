@@ -5,6 +5,7 @@ var bubbleSort = require('../src/algorithms/bubbleSort');
 var quickSort  = require('../src/algorithms/quickSort');
 var mergeSort  = require('../src/algorithms/mergeSort');
 var heapSort  = require('../src/algorithms/heapSort');
+var shellSort  = require('../src/algorithms/shellSort');
 var array = require('../src/array');
 
 
@@ -62,3 +63,4 @@ describe('Insert sort', tests(insertSort));
 describe('Quick sort', tests(quickSort));
 describe('Merge sort', tests(mergeSort));
 describe('Heap sort', tests(heapSort));
+describe('Shell sort', tests(shellSort));

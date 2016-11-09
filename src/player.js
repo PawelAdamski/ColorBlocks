@@ -14,6 +14,13 @@ function player(log, visual, operation) {
         	stopAnimation = false;
             clearInterval(rysowanie);
             rysowanie = undefined;
+            if (logs.length<=index) {
+				var endTime = new Date();
+				var dif = endTime.getTime() - this.startTime.getTime();
+
+				var seconds = dif / 1000;
+            	visual.finish(seconds);
+            }
             return;
         }
         var e = logs[index];
@@ -30,7 +37,8 @@ function player(log, visual, operation) {
 	this.play = function() {
 		if (rysowanie === undefined) {
 			rysuj();
-			rysowanie = setInterval(rysuj,speed);
+			rysowanie = setInterval(rysuj.bind(this),speed);
+			this.startTime = new Date();
 		}
 	};
 
