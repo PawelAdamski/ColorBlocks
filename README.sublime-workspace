@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"c",
-				"checked"
-			],
-			[
 				"array",
 				"arrayGeneration"
 			],
@@ -264,11 +260,28 @@
 	"buffers":
 	[
 		{
+			"file": "src/main.js",
+			"settings":
+			{
+				"buffer_size": 1824,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/histogram.js",
 			"settings":
 			{
-				"buffer_size": 2219,
+				"buffer_size": 2129,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/streams.coffee",
+			"settings":
+			{
+				"buffer_size": 10726,
 				"line_ending": "Unix"
 			}
 		},
@@ -276,33 +289,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3841,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test/sorting_test.js",
-			"settings":
-			{
-				"buffer_size": 1652,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/algorithms/quickSort.js",
-			"settings":
-			{
-				"buffer_size": 473,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/algorithms/shellSort.js",
-			"settings":
-			{
-				"buffer_size": 456,
+				"buffer_size": 3838,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -356,23 +343,15 @@
 	"expanded_folders":
 	[
 		"/home/pawel/Repository/github/ColorBlocks",
-		"/home/pawel/Repository/github/ColorBlocks/src",
-		"/home/pawel/Repository/github/ColorBlocks/src/algorithms",
-		"/home/pawel/Repository/github/ColorBlocks/test"
+		"/home/pawel/Repository/github/ColorBlocks/src"
 	],
 	"file_history":
 	[
-		"/home/pawel/Repository/github/ColorBlocks/src/player.js",
-		"/home/pawel/Repository/github/ColorBlocks/src/array.js",
-		"/home/pawel/Repository/github/ColorBlocks/src/main.js",
-		"/home/pawel/Repository/github/DrogaDoNieba/www/script.js",
-		"/home/pawel/Repository/github/DrogaDoNieba/app/www/js/piesni.js",
-		"/home/pawel/Repository/github/DrogaDoNieba/app/www/img/logo.png",
-		"/home/pawel/Repository/github/DrogaDoNieba/www/piesni.js",
-		"/home/pawel/Repository/github/ColorBlocks/index.html",
 		"/home/pawel/Repository/github/ColorBlocks/src/algorithms/heapSort.js",
 		"/home/pawel/Repository/github/ColorBlocks/test/sorting_test.js",
+		"/home/pawel/Repository/github/ColorBlocks/src/main.js",
 		"/home/pawel/Repository/github/ColorBlocks/src/histogram.js",
+		"/home/pawel/Repository/github/ColorBlocks/index.html",
 		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/utils/time.coffee",
 		"/home/pawel/Downloads/koepta (1).csv",
 		"/home/pawel/Repository/github/ColorBlocks/src/arrayGeneration.js",
@@ -381,12 +360,16 @@
 		"/home/pawel/Repository/github/ColorBlocks/src/algorithms/shellSort.js",
 		"/home/pawel/Downloads/Alphamar - Grains Lineup - 19.07 (3).csv",
 		"/home/pawel/Downloads/Alphamar - Grains Lineup - 19.csv",
+		"/home/pawel/Repository/github/ColorBlocks/src/player.js",
 		"/home/pawel/Repository/github/ColorBlocks/src/algorithms/mergeSort.js",
+		"/home/pawel/Repository/github/ColorBlocks/src/array.js",
 		"/home/pawel/Repository/github/ColorBlocks/test/array_test.js2",
 		"/home/pawel/Repository/github/ColorBlocks/src/algorithms/bubbleSort.js",
 		"/home/pawel/Repository/github/ColorBlocks/gulpfile.js",
+		"/home/pawel/Repository/github/DrogaDoNieba/app/www/js/piesni.js",
 		"/home/pawel/Repository/github/ReactToDo/index.html",
 		"/home/pawel/Repository/github/DrogaDoNieba/app/www/piesn.html",
+		"/home/pawel/Repository/github/DrogaDoNieba/www/piesni.js",
 		"/home/pawel/Repository/github/ReactToDo/app.jsx",
 		"/home/pawel/Repository/github/ColorBlocks/.travis.yml",
 		"/home/pawel/Repository/github/ColorBlocks/test/array_test.js3",
@@ -418,6 +401,7 @@
 		"/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/profile.coffee",
 		"/home/pawel/Repository/github/DrogaDoNieba/www/index.html",
 		"/home/pawel/Repository/github/DrogaDoNieba/www/style.css",
+		"/home/pawel/Repository/github/DrogaDoNieba/www/script.js",
 		"/home/pawel/Repository/github/DrogaDoNieba/app/www/js/index.js",
 		"/home/pawel/Downloads/pieШni mszalne/205 Chrystus, Chrystus to nadzieja.txt",
 		"/home/pawel/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
@@ -489,7 +473,8 @@
 		"/home/pawel/Repository/github/PawelAdamski.github.io/obrazki/obraz1.html",
 		"/home/pawel/Repository/github/PawelAdamski.github.io/Obrazki/index_1.html",
 		"/home/pawel/Repository/github/PawelAdamski.github.io/losowaTablica.js",
-		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/petle i tablice/zadanie1.html"
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/petle i tablice/zadanie1.html",
+		"/home/pawel/Repository/github/PawelAdamski.github.io/JavaScript/petle i tablice/zadanie2.html"
 	],
 	"find":
 	{
@@ -531,16 +516,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"play",
-			"init",
-			"algorithms",
-			"clean",
-			"reset",
-			"changeSpeed",
-			"speed",
-			"change",
-			"revert",
-			"setDirec",
+			"heig",
+			"listOfAlgorithms",
+			"api/feed/home",
+			"%",
 			";-;",
 			"-",
 			"24",
@@ -658,7 +637,13 @@
 			"searchObjectfactory",
 			"AppHeader",
 			"renderLinksAndCommandLine",
-			"cmdLine"
+			"cmdLine",
+			"/trade",
+			"<a.*</a>",
+			"promised-io",
+			"Date.createNewFormat",
+			"createNewFormat",
+			"h3"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -723,11 +708,41 @@
 			[
 				{
 					"buffer": 0,
+					"file": "src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 46.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "src/histogram.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2219,
+						"buffer_size": 2129,
 						"regions":
 						{
 						},
@@ -747,24 +762,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "index.html",
+					"buffer": 2,
+					"file": "/home/pawel/work/src/bitbucket.org/agflow/web/client/app/components/streams.coffee",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3841,
+						"buffer_size": 10726,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								936,
-								936
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 338.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
 							]
 						],
 						"settings":
@@ -772,94 +817,6 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 630.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "test/sorting_test.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1652,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1652,
-								1652
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 518.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/algorithms/quickSort.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								391,
-								391
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/algorithms/shellSort.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 456,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								233
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -920,14 +877,6 @@
 		"selected_items":
 		[
 			[
-				"his",
-				"ColorBlocks/src/histogram.js"
-			],
-			[
-				"index.html",
-				"ColorBlocks/index.html"
-			],
-			[
 				"array.js",
 				"ColorBlocks/src/array.js"
 			],
@@ -974,6 +923,10 @@
 			[
 				"bubblesort",
 				"ColorBlocks/src/algorithms/bubbleSort.js"
+			],
+			[
+				"index.html",
+				"ColorBlocks/index.html"
 			],
 			[
 				"histo",

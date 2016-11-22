@@ -10,17 +10,13 @@ function player(log, visual, operation) {
 	var rysuj = function() {
 		visual.resetBackgroundColor();
 
-        if (logs.length<=index || index<0 || stopAnimation ) {
+        if (logs.length<=index || stopAnimation ) {
         	stopAnimation = false;
             clearInterval(rysowanie);
             rysowanie = undefined;
-            if (logs.length<=index) {
-				var endTime = new Date();
-				var dif = endTime.getTime() - this.startTime.getTime();
-
-				var seconds = dif / 1000;
-            	visual.finish(seconds);
-            }
+            if (logs.length<=index ) {
+            	visual.finish();
+        	}
             return;
         }
         var e = logs[index];
@@ -35,10 +31,9 @@ function player(log, visual, operation) {
 	var rysowanie;
 
 	this.play = function() {
-		if (rysowanie === undefined) {
+		if (rysowanie === undefined && index<logs.length) {
 			rysuj();
 			rysowanie = setInterval(rysuj.bind(this),speed);
-			this.startTime = new Date();
 		}
 	};
 

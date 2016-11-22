@@ -25,7 +25,7 @@ function VisualHistogram(svgSelector,width,height) {
 	    this.header = this.snap.g(line,text);
 
 
-		var canvasHeight = document.querySelector(svgSelector).clientHeight;
+		var canvasHeight = 420;
 		for (var i=0; i<data.length; i++ ) {
 			var x = i*width+width;
 			var y = canvasHeight-height*data[i];
@@ -53,7 +53,7 @@ function VisualHistogram(svgSelector,width,height) {
 	};
 
 	this.set = function(index,data) {
-		var canvasHeight = document.querySelector(svgSelector).clientHeight;
+		var canvasHeight = 420;
 		this.elements[index].attr({
 			height:height*data,
 			y: canvasHeight-height*data
@@ -85,7 +85,7 @@ function VisualHistogram(svgSelector,width,height) {
    		}
 	}
 
-	this.finish = function(time) {
+	this.finish = function() {
 		var r = this.snap.rect(0,60, 450,450);
 
 			r.attr({
@@ -93,12 +93,7 @@ function VisualHistogram(svgSelector,width,height) {
 			     "fill-opacity": 0.9
 			});
 
-		text = this.snap.text(100, 250, "Time: "+time+"s");
-	    text.attr({
-	          'font-size': 50
-	    });
-
-	    this.summary = this.snap.g(r,text);
+	    this.summary = this.snap.g(r);
 
 	}
 

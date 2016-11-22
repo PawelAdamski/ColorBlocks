@@ -48,7 +48,7 @@ app = {
 
         var players = []
         for (var i=0; i<selectedAlgorithms.length;i++) {
-            var a = new VisualHistogram("#svg-"+i,"3%" , "3%");
+            var a = new VisualHistogram("#svg-"+i, 4, 4);
             a.init(tab, selectedAlgorithms[i].name);
             p = new player(inputs[i].log, a, selectedAlgorithms[i].operation);
 
@@ -58,10 +58,10 @@ app = {
     },
 
 
-    startNew: function(n,dataOrder, selectedAlgorithms) {
+    startNew: function(n,dataOrder) {
         this.clean();
         var tab = arrayGeneration[dataOrder](n);
-        this.players = this.record(tab, selectedAlgorithms);
+        this.players = this.record(tab, algorithms);
         this.start();
     }
 }

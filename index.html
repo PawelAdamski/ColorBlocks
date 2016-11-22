@@ -7,20 +7,30 @@ svg.active {
     -webkit-border-radius: 10px;
     border-radius: 10px;
     border: solid 2px #ccc;
-    width: 430px;
-    height: 420px;
+    width: 20vmax;
+    height: 20vmax;
     display: inline-block;
     margin-right: 10px;
+    background-color: white;
     font: 1em source-sans-pro, Source Sans Pro, Helvetica, sans-serif;
 }
 
+#main {
+    padding: 8px;
+    width: calc(100% - 240px);
+    display: inline-block;
+}
 
 #menu {
     width:200px;
-    float:right;
     border:1px solid black;
     height:100%;
+    padding: 5px;
+    background-color: lightsteelblue;
+    display: inline-block;
+    vertical-align: top;
 }
+
 
 #menu button {
     display:block;
@@ -28,7 +38,27 @@ svg.active {
     width: 150px;
 }
 
+#menu #size {
+    width: 75px;
+}
+
+#menu span {
+     margin-top: 8px;
+     font-weight: bold;
+}
+
+    #svgs {
+        width: 90%;
+        margin: 0 auto; 
+    }
+
+html, body {
+    margin: 0px;
+    background-color: lightgoldenrodyellow;
+}
+
 </style>
+<title>Sorting algorithms</title>
 </head>
 <body>
 	<script src="node_modules/snapsvg/dist/snap.svg-min.js"></script>
@@ -45,46 +75,45 @@ svg.active {
     <script src="src/arrayGeneration.js"></script>
     <script src="src/main.js"></script>
 
-
     <div id="menu">
-        <button onclick="app.start()">Start</button>
-        <button onclick="app.stop()">Stop</button>
-        Speed:
-        <input type="range" id="speed" value="50" min="0" max="100" onchange="app.changeSpeed(this.value)">`
-        <hr/>
-        <div id = "listOfAlgorithms"></div>
-        <hr/>
+        <span>Initial order:</span>
         <div id = "listOfArrayGenerationMethods"></div>
-        <input id="size" value="50"/>
-        <button onclick="reset()">Reset</button>
+        <span>Number of elements:</span>
+        <input id="size" type="number" value="50" min="10" max="90"/>
+
+        <button onclick="reset()">Restart</button>
+        <button onclick="app.start()">Continue</button>
+        <button onclick="app.stop()">Stop</button>
     </div>
+
 
     <div id="main">
-    	<svg id="svg-0"></svg>
-        <svg id="svg-1"></svg>
-        <svg id="svg-2"></svg>
-        <svg id="svg-3"></svg>
-        <svg id="svg-4"></svg>
-        <svg id="svg-5"></svg>
+        <div id="svgs">
+    	<svg id="svg-0" viewBox="0 0 420 420"></svg>
+        <svg id="svg-1" viewBox="0 0 420 420"></svg>
+        <svg id="svg-2" viewBox="0 0 420 420"></svg>
+        <svg id="svg-3" viewBox="0 0 420 420"></svg>
+        <svg id="svg-4" viewBox="0 0 420 420"></svg>
+        <svg id="svg-5" viewBox="0 0 420 420"></svg>
+        </div>
     </div>
-
 
 	<script>
 
-    for (var i=0; i<algorithms.length; i++ ) {
-        var div= document.createElement("div");
-        var description = document.createTextNode(algorithms[i].name);
-        var checkbox = document.createElement("input");
+    // for (var i=0; i<algorithms.length; i++ ) {
+    //     var div= document.createElement("div");
+    //     var description = document.createTextNode(algorithms[i].name);
+    //     var checkbox = document.createElement("input");
 
-        checkbox.type = "checkbox";    // make the element a checkbox
-        checkbox.value = algorithms[i].name;      // give it a name we can check on the server side
-        checkbox.checked = "checked";
+    //     checkbox.type = "checkbox";    // make the element a checkbox
+    //     checkbox.value = algorithms[i].name;      // give it a name we can check on the server side
+    //     checkbox.checked = "checked";
 
-        div.appendChild(checkbox);   // add the box to the element
-        div.appendChild(description);
+    //     div.appendChild(checkbox);   // add the box to the element
+    //     div.appendChild(description);
 
-        document.getElementById('listOfAlgorithms').appendChild(div);
-    }
+    //     document.getElementById('listOfAlgorithms').appendChild(div);
+    // }
 
     for (var p in arrayGeneration ) {
         var div= document.createElement("div");
@@ -106,11 +135,6 @@ svg.active {
 
 
     function reset() {
-        var selectedAlgorithms = [];
-        var ai = document.querySelectorAll("input[type='checkbox']:checked");
-        for (var i = 0; i < ai.length; i++) {
-            selectedAlgorithms.push(getAlgorithm(ai[i].value))
-        }
         var svgs = document.querySelectorAll("svg");
         for (var i = 0; i < svgs.length; i++) {
             svgs[i].classList.remove('active');
@@ -119,7 +143,7 @@ svg.active {
         var val = document.getElementById("size").value;
         val = parseInt(val);
         var dataOrder = document.querySelector('input[name="dataOrder"]:checked').value;
-        app.startNew(val,dataOrder,selectedAlgorithms);
+        app.startNew(val,dataOrder);
     }
 
 
